@@ -1,0 +1,37 @@
+.no-match {
+  color: #444;
+  font-size: 1.8rem;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Amatic SC", cursive;
+  }
+  p {
+    margin: 30px;
+  }
+  .strong {
+    margin: 30px 80px;
+    font-size: 2.5rem;
+    color: #bbb;
+  }
+
+  .btn {
+    border-radius: 15px 0;
+    background-color: #fff;
+
+    &:hover {
+      color: darken(#6c757d, 20%);
+      background: #23bf238c;
+    }
+
+    &:focus,
+    &:active {
+      background-color: #fff !important;
+      color: darken(#6c757d, 20%) !important;
+      box-shadow: none !important;
+    }
+  }
+}

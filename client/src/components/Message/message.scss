@@ -1,0 +1,33 @@
+.message {
+  z-index: 3;
+  position: fixed;
+  top: 10px;
+  height: 40px;
+  left: 20%;
+  width: 60%;
+  span {
+    height: 20px;
+  }
+}
+
+svg {
+  height: 100%;
+  width: auto;
+}
+.cross {
+  cursor: pointer;
+}
+.flash {
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin: 8px;
+}
+
+.flash-danger {
+  // border: 2px solid #2ba6ec;
+  background: #1edd88;
+}
